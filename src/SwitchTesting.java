@@ -22,7 +22,7 @@ public class SwitchTesting
             
             if(num > 4 || num < 1)
             {
-                System.out.println("Please input a valid choice. ");
+                System.out.println("Please input a valid choice. ");    // Continue to repeat until the user inputs a valid choice
                 System.out.println();
             }
             else
