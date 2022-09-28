@@ -20,9 +20,9 @@ public class SwitchTesting
             Scanner choice = new Scanner( System.in );
             int num = choice.nextInt();
             
-            if(num > 4 || num < 1)
+            if ( num > 4 || num < 1 )  // Continue to repeat until the user inputs a valid choice
             {
-                System.out.println("Please input a valid choice. ");    // Continue to repeat until the user inputs a valid choice
+                System.out.println( "Please input a valid choice. " );
                 System.out.println();
             }
             else
